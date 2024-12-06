@@ -34,6 +34,10 @@ body {
 header {
     background-color: yellowgreen;
 }
+
+h1 {
+  font-family: "Oswald", sans-serif;
+}
 /*main content*/
 main {
     background-color: brown;
