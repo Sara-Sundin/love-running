@@ -94,13 +94,13 @@ main {
 
     /*make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin: 47px;
 }
 /*hero styles*/
 #hero {
   height: 600px;
   width: 100%;
-  background-color: url(../images/hero-image.webp) no-repeat center center/cover;
+  background: url(../images/hero-image.webp) no-repeat center center/cover;
   position: relative;
 }
 
@@ -161,6 +161,14 @@ main {
     margin-top: 79px;
   }
 }
+
+/*Hero*/
+#cover-text {
+  width: 300px;
+  right: 50px;
+}
+
+
 
 /*media query: tablets and larger (992px and up)*/
 @media screen and (min-width: 992px) {
